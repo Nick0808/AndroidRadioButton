@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeActivity1">
+
+    <LinearLayout
+        android:id="@+id/p1_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p1_textView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:text="홍길동"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:id="@+id/p1_radio_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RadioButton
+                android:id="@+id/p1_radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LEFT"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/p1_radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CENTER"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/p1_radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RIGHT"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
